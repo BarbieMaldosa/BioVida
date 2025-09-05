@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fdfb;
+  color: #2e4d3d;
+}
+
+header {
+  background-color: #8bc34a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: #e8f5e9;
+}
+
+.botao {
+  background-color: #66bb6a;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.produtos {
+  padding: 40px;
+  text-align: center;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.produto {
+  border: 1px solid #c8e6c9;
+  padding: 20px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #dcedc8;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.produto h3 {
+  margin: 10px 0;
+}
+
+.produto button {
+  background-color: #81c784;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.produto button:hover {
+  background-color: #66bb6a;
+}
+
+.carrinho {
+  margin-top: 50px;
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lista-carrinho {
+  list-style: none;
+  padding: 0;
+}
+.sobre {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.8;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+  text-align: justify;
+}
+.contato {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f1f8e9;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #c5e1a5;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #81c784;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #66bb6a;
+}

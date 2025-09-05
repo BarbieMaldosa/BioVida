@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produtos | BioVida</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <link rel="stylesheet" href="estilo.css">
+  <script defer src="sfsdfd.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BioVida</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="produtos">
+    <h2>Nossos Cosméticos Veganos</h2>
+    <div class="lista-produtos">
+
+      <!-- Produto 1 -->
+      <div class="produto">
+        <img src="img/shampoovegano.jpg" alt="Shampoo Vegano" />
+        <h3>Shampoo Natural</h3>
+        <p>Feito com extratos vegetais. 250ml</p>
+        <span class="preco">R$ 39,90</span>
+        <button onclick="adicionarAoCarrinho('Shampoo Natural', 39.90)">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="produto">
+        <img src="img/hidratante.2.png" alt="Hidratante Vegano" />
+        <h3>Hidratante Corporal</h3>
+        <p>Hidratação profunda com óleo de coco. 200ml</p>
+        <span class="preco">R$ 45,00</span>
+        <button onclick="adicionarAoCarrinho('Hidratante Corporal', 45.00)">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="produto">
+        <img src="img/sabonete.webp" alt="Sabonete Vegano" />
+        <h3>Sabonete Artesanal</h3>
+        <p>Feito à mão com ingredientes naturais.</p>
+        <span class="preco">R$ 18,50</span>
+        <button onclick="adicionarAoCarrinho('Sabonete Artesanal', 18.50)">Adicionar ao Carrinho</button>
+      </div>
+      
+    </div>
+
+    <section class="carrinho">
+      <h2>Carrinho de Compras</h2>
+      <ul id="lista-carrinho"></ul>
+      <p><strong>Total: R$ <span id="total-carrinho">0.00</span></strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BioVida. Alana e Thauana.</p>
+  </footer>
+</body>
+</html>
